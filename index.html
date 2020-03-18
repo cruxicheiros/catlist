@@ -1,0 +1,37 @@
+<html>
+	<head>
+		<title>catlist - a checklist which shows you cats</title>
+	
+		<script src="script.js"></script>
+
+		
+	</head>
+
+	<body>
+		<div class = "main-container">
+			<h1>Catlist</h1>
+			<div class="content-container">
+				<div id="cat-container">
+					<img src="farm66.static.flickr.com/65535/46995127524_826bcaf7ab_z.jpg" alt="A cute cat! Aww."/>
+				</div>
+				<div id="checklist-container">
+					<form id="add-to-checklist-form">
+						<label for="new-checklist-item">New checklist item</label>
+						<input type="text" name="new-checklist-item" id="new-checklist-item"/>
+						<input type="submit" value="Add item to checklist"/>
+					</form>
+
+					<form id="checklist-form">
+						<ul class="checklist">
+							<li class="checklist-entry">
+								<label for="checklist-checkbox-0">Go buy milk</label>
+								<input type="checkbox" id="checklist-checkbox-0"/>
+							</li>
+						</ul>
+					</form>
+				</div>
+			</div>
+		</div>
+	</body>
+
+</html>
